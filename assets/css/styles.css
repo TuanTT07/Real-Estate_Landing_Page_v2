@@ -563,6 +563,12 @@ f .feature .body .info {
     align-items: center;
     width: 28px;
     height: 28px;
+    border-radius: 3px;
+    background: #f9f9f9;
+}
+
+.social .social-link + .social-link {
+    margin-left: 16px;
 }
 .footer .social-link:hover {
     background: #ebebeb;
