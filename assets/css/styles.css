@@ -4,6 +4,10 @@
 :root {
     --primary-color: #0f1b4c;
 }
+html,
+body {
+    scroll-behavior: smooth;
+}
 
 html {
     font-size: 62.5%;
@@ -45,16 +49,27 @@ a {
     overflow: hidden;
 }
 /* =====================Header====================== */
-.header {
+
+.fix-header {
+    background: #e6f0ff;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
+.hero-wrap {
     background-color: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 90px);
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    padding: 12px 0;
 }
 
 .navbar ul {
@@ -88,9 +103,6 @@ a {
     font-weight: 500;
 }
 
-.hero {
-    margin-top: 130px;
-}
 .hero .info {
     width: 50.36%;
 }
@@ -243,6 +255,7 @@ a {
 }
 /* =====Featured Properties===== */
 .feature {
+    margin-top: 41px;
     padding: 110px 0;
     background: #f5fafe;
 }
