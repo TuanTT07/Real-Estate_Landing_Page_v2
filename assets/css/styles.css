@@ -341,7 +341,7 @@ f .feature .body .info {
     line-height: 1; /* 100% */
     letter-spacing: 0.014rem;
     margin-left: 0.8rem;
-    margin-right: 23px;
+    margin-right: 20px;
 }
 .feature .body .label:last-child {
     margin-right: 0;
