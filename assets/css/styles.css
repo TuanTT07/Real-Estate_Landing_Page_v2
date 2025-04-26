@@ -290,8 +290,9 @@ a {
     font-weight: 600;
 }
 .feature .list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 70px;
-    display: flex;
     gap: 30px;
 }
 .feature .item {
@@ -363,7 +364,7 @@ f .feature .body .info {
 .stats .img-block .stats .info {
     width: 50%;
 }
-.stats .row {
+.stats .img-block {
     position: relative;
 }
 .stats .img-block .image {
@@ -542,7 +543,7 @@ f .feature .body .info {
     display: flex;
 }
 .footer .row-top {
-    gap: 185px;
+    column-gap: 185px;
 }
 .footer .heading {
     color: #1c1c1d;

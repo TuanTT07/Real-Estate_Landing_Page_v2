@@ -59,6 +59,70 @@
     .menu-checkbox:checked ~ .menu-drawer {
         transform: translateX(0);
     }
+    /* ===== Hero ===== */
+    .hero-img {
+        display: none;
+    }
+    .hero-wrap .info {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .hero-wrap .desc {
+        width: 80%;
+        margin: 30px auto auto;
+    }
+    /* clinents */
+    .clients .images {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /* guides */
+    .guides-item {
+        margin: 0;
+        flex: 1;
+    }
+    /* feature */
+    .feature .list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .stats .row {
+        flex-direction: column;
+    }
+    .stats .img-block .stats .info {
+        width: 100%;
+    }
+    .stats .img-block {
+        order: 2;
+        margin-top: 20px;
+    }
+    .stats .info {
+        order: 1;
+        padding: 0;
+    }
+    .stats .sub-title {
+        width: 69%;
+    }
+    .stats .info .desc {
+        width: 100%;
+    }
+    .stats .row-qty {
+        flex-direction: row;
+    }
+    .stats .qty {
+        font-size: 5rem;
+    }
+
+    .subscription .image {
+        display: none;
+    }
+
+    /* footer */
+    .footer .row-top {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        row-gap: 50px;
+    }
 }
 /* tablet */
 @media screen and (min-width: 768px) and (max-width: 991px) {
